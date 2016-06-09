@@ -1,9 +1,11 @@
 Weighted-Embeddings
 =======================
 
-A system for learning word weights, optimised for sentence-level vector similarity.
+This is a system for learning word weights, optimised for sentence-level vector similarity.
 
-You can find model details in the following paper:
+A popular method of constructing sentence vectors is to add together word embeddings for all the words in the sentence. We show that this simple model can be improved by learning a unique scalar weight for every word in the vocabulary. These weights are trained on a corpus of plain text, by optimising the similarity of nearby sentences to be high and the similarity of random sentences to be low. By applying the resulting weights in an additive model, we see improvements on the task of topic relevance detection.
+
+You can find more details in the following paper:
 
 Sentence Similarity Measures for Fine-Grained Estimation of Topical Relevance in Learner Essays  
 Marek Rei and Ronan Cummins  
